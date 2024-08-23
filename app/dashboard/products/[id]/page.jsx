@@ -3,10 +3,10 @@
 import styles from "@/app/ui/dashboard/products/singleProduct/singleProduct.module.css";
 import Image from "next/image";
 
-const SingleProductPage = async ({ params }) => {
+const SingleProductPage = async () => {
   
-  const { id } = params;
-  const user = await fetchUser(id);
+  // const { id } = params;
+  // const user = await fetchUser(id);
 
   return (
     <div className={styles.container}>
@@ -33,13 +33,13 @@ const SingleProductPage = async ({ params }) => {
           <select name="cat" id="isAdmin">
             <option 
             value="kitchen" 
-            selected={user.isAdmin}
+            // selected={user.isAdmin}
             >
                 kitchen
             </option>
             <option 
             value="computers" 
-            selected={!user.isAdmin}
+            // selected={!user.isAdmin}
             >
                 computers
             </option>
