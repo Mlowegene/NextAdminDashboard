@@ -10,9 +10,9 @@ export async function generateStaticParams() {
   return ids.map(id => ({ id }));
 }
 
-const SingleProductPage = async ({params}) => {
+const SingleProductPage = async () => {
   
-  const { id } = params;
+  // const { id } = params;
   // const user = await fetchUser(id);
 
   return (
@@ -40,13 +40,13 @@ const SingleProductPage = async ({params}) => {
           <select name="cat" id="isAdmin">
             <option 
             value="kitchen" 
-            selected={user.isAdmin}
+            // selected={user.isAdmin}
             >
                 kitchen
             </option>
             <option 
             value="computers" 
-            selected={!user.isAdmin}
+            // selected={!user.isAdmin}
             >
                 computers
             </option>
