@@ -8,7 +8,7 @@ import {
   MdSearch,
 } from "react-icons/md";
 
-function navbar() {
+function NavBar() {
 
 const pathname = usePathname();
 
@@ -30,4 +30,4 @@ const pathname = usePathname();
   )
 }
 
-export default navbar
+export default NavBar

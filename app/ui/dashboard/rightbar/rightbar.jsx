@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import styles from "./rightbar.module.css"
 import { MdPlayCircleFilled, MdReadMore } from "react-icons/md";
 function rightbar() {
@@ -6,7 +7,7 @@ function rightbar() {
     <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.bgContainer}>
-          <img src="./astronaut.png" alt="" className={styles.bg} />
+          <Image src="./astronaut.png" alt="" className={styles.bg} />
         </div>
         <div className={styles.text}>
           <span className={styles.notification}>🔥 Available Now</span>

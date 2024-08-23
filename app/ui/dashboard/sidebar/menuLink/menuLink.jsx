@@ -3,7 +3,7 @@ import { usePathname } from "next/navigation";
 import styles from "./menuLink.module.css";
 import Link from "next/link";
 
-function menuLink({item}) {
+function MenuLink({item}) {
 
  const pathname = usePathname();
 
@@ -15,4 +15,4 @@ function menuLink({item}) {
   )
 }
 
-export default menuLink
+export default MenuLink

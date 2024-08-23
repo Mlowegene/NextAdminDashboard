@@ -1,4 +1,5 @@
 
+import Image from "next/image"
 import styles from "./transactions.module.css"
 function transactions() {
   return (
@@ -17,7 +18,7 @@ function transactions() {
          <tr>
             <td>
               <div className={styles.user}>
-              <img 
+              <Image 
               src="./noavatar.png" 
               alt="" 
               width={40} 
@@ -36,7 +37,7 @@ function transactions() {
           <tr>
             <td>
             <div className={styles.user}>
-              <img 
+              <Image 
               src="./noavatar.png" 
               alt="" 
               width={40} 
@@ -55,7 +56,7 @@ function transactions() {
           <tr>
             <td>
             <div className={styles.user}>
-              <img 
+              <Image 
               src="./noavatar.png" 
               alt="" 
               width={40} 
@@ -74,7 +75,7 @@ function transactions() {
           <tr>
             <td>
             <div className={styles.user}>
-              <img 
+              <Image 
               src="./noavatar.png" 
               alt="" 
               width={40} 

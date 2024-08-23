@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const SingleUserPage = async ({ params }) => {
   
-//   const { id } = params;
-//   const user = await fetchUser(id);
+  const { id } = params;
+  const user = await fetchUser(id);
 
   return (
     <div className={styles.container}>
@@ -33,13 +33,13 @@ const SingleUserPage = async ({ params }) => {
           <select name="isAdmin" id="isAdmin">
             <option 
             value={true} 
-            // selected={user.isAdmin}
+            selected={user.isAdmin}
             >
                 Yes
             </option>
             <option 
             value={false} 
-            // selected={!user.isAdmin}
+            selected={!user.isAdmin}
             >
                 No
             </option>
@@ -48,13 +48,13 @@ const SingleUserPage = async ({ params }) => {
           <select name="isActive" id="isActive">
             <option 
             value={true} 
-            // selected={user.isActive}
+            selected={user.isActive}
             >
                 Yes
             </option>
             <option 
             value={false} 
-            // selected={!user.isActive}
+            selected={!user.isActive}
             >
                 No
             </option>
