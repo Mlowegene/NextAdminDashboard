@@ -3,9 +3,16 @@
 import styles from "@/app/ui/dashboard/products/singleProduct/singleProduct.module.css";
 import Image from "next/image";
 
-const SingleProductPage = async () => {
+export async function generateStaticParams() {
+  // Fetch or define the list of IDs for the dynamic routes
+  const ids = ['1', '2', '3']; // Replace with your actual logic to get IDs
+
+  return ids.map(id => ({ id }));
+}
+
+const SingleProductPage = async ({params}) => {
   
-  // const { id } = params;
+  const { id } = params;
   // const user = await fetchUser(id);
 
   return (
@@ -33,13 +40,13 @@ const SingleProductPage = async () => {
           <select name="cat" id="isAdmin">
             <option 
             value="kitchen" 
-            // selected={user.isAdmin}
+            selected={user.isAdmin}
             >
                 kitchen
             </option>
             <option 
             value="computers" 
-            // selected={!user.isAdmin}
+            selected={!user.isAdmin}
             >
                 computers
             </option>
