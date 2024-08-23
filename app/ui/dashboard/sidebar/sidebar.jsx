@@ -80,7 +80,7 @@ function sidebar() {
   return (
     <div className={styles.container}>
       <div className={styles.user}>
-        <img className={styles.userImage} src="/noavatar.png" alt="" height="50" width="50" />
+        <img className={styles.userImage} src="./noavatar.png" alt="" height="50" width="50" />
         <div className={styles.userDetails}>
           <span className={styles.username}>Generation Mlowe</span>
           <span className={styles.userTitle}>Administrator</span>

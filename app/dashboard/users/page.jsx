@@ -27,7 +27,7 @@ function UsersPage() {
           <tr>
             <td>
               <div className={styles.user}>
-                <img src="/noavatar.png" alt="" width={40} height={40} className={styles.userImage} />
+                <img src="./noavatar.png" alt="" width={40} height={40} className={styles.userImage} />
                 Gene Mlowe
               </div>
             </td>

@@ -18,7 +18,7 @@ function transactions() {
             <td>
               <div className={styles.user}>
               <img 
-              src="/noavatar.png" 
+              src="./noavatar.png" 
               alt="" 
               width={40} 
               height={40} 
@@ -37,7 +37,7 @@ function transactions() {
             <td>
             <div className={styles.user}>
               <img 
-              src="/noavatar.png" 
+              src="./noavatar.png" 
               alt="" 
               width={40} 
               height={40} 
@@ -56,7 +56,7 @@ function transactions() {
             <td>
             <div className={styles.user}>
               <img 
-              src="/noavatar.png" 
+              src="./noavatar.png" 
               alt="" 
               width={40} 
               height={40} 
@@ -75,7 +75,7 @@ function transactions() {
             <td>
             <div className={styles.user}>
               <img 
-              src="/noavatar.png" 
+              src="./noavatar.png" 
               alt="" 
               width={40} 
               height={40} 

@@ -6,7 +6,7 @@ function rightbar() {
     <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.bgContainer}>
-          <img src="/astronaut.png" alt="" className={styles.bg} />
+          <img src="./astronaut.png" alt="" className={styles.bg} />
         </div>
         <div className={styles.text}>
           <span className={styles.notification}>🔥 Available Now</span>
